@@ -1,0 +1,56 @@
+body{background: blue
+
+}
+/* Animacion para que desaparezca y aparezca en los 5s
+@keyframes animacion{ 
+   0% {
+      opacity: 0;
+    }
+   50% {
+      opacity: 0.5;
+    }
+   100% {
+      opacity: 1;
+    }
+  }
+*/
+#sandbox { font-family: 'goudy-bookletter-1911-1', 'goudy-bookletter-1911-2', 'Bas-kerville', 'Georgia', 'serif'; 
+          border: 10px; 
+          border: 2px solid blue; 
+          color: rgba(0,0,0,0.6);
+          width: 440; 
+          padding: 20px;
+          margin: 40px 0 0 30px;
+          border-radius:30px;  
+          box-shadow: 0px 0px 20px white; 
+          background-color: rgba(180,180,144,0.2);
+          background: linear-gradient(to bottom, #444444, #999999); 
+     /*     transform: rotate(7.5deg) rotateY(180deg) scale(0.8); Rotar y escalar    */ 
+      /*    animation: 5s animacion 1; llamada a la animacion       */
+      padding: 10px;
+border-radius: 5px;
+margin-left: 0;
+      transition: 3s linear;
+          }
+          
+
+#body:hover{
+  
+-webkit-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+-ms-transform:rotate(360deg);
+transform:rotate(360deg);
+-moz-box-shadow: -5px -5px 5px #888;
+-webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: -5px -5px 5px #888;
+  
+}
+abbr{color: #ff2166; 
+     border-bottom: 1px dashed #C60;
+     text-shadow: 5px 5px 5px #333;}
+h1{
+  margin: 0 0 20px 0; 
+  font-size: 56px}
+p{font-size: 30px}
+
