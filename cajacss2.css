@@ -14,6 +14,12 @@ body{background: blue
     }
   }
 */
+#caja {
+width: 1000;
+margin: 40px 0 0 30px;
+}
+
+
 #sandbox { font-family: 'goudy-bookletter-1911-1', 'goudy-bookletter-1911-2', 'Bas-kerville', 'Georgia', 'serif'; 
           border: 10px; 
           border: 2px solid blue; 
@@ -27,24 +33,16 @@ body{background: blue
           background: linear-gradient(to bottom, #444444, #999999); 
      /*     transform: rotate(7.5deg) rotateY(180deg) scale(0.8); Rotar y escalar    */ 
       /*    animation: 5s animacion 1; llamada a la animacion       */
-      padding: 10px;
-border-radius: 5px;
-margin-left: 0;
-      transition: 3s linear;
+          padding: 10px;
+          border-radius: 5px;
+          margin-left: 0;
+          transition: 3s linear;
           }
           
 
-#body:hover{
-  
--webkit-transform:rotate(360deg);
--moz-transform:rotate(360deg);
--o-transform:rotate(360deg);
--ms-transform:rotate(360deg);
-transform:rotate(360deg);
--moz-box-shadow: -5px -5px 5px #888;
--webkit-box-shadow: -5px -5px 5px #888;
-box-shadow: -5px -5px 5px #888;
-  
+#caja:hover #sandbox{
+  margin-left: 600px;
+  transform:rotate(360deg);  
 }
 abbr{color: #ff2166; 
      border-bottom: 1px dashed #C60;
